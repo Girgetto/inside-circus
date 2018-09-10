@@ -80,6 +80,7 @@ header a:visited {
 header div a {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 header div p {
@@ -88,17 +89,19 @@ header div p {
     margin-right: 10px;
 }
 
-header div img {
-    transform: translateY(-2px);
-}
-
-header div a {
-    text-decoration: none;
-}
-
 header div div img {
+    transform: translateY(-2px);
     width: 40px;
     align-self: center;
+}
+
+header div div {
+    transition: 0.3s;
+}
+
+header div div:hover {
+    transform: translateX(10px);
+    transition: 0.3s;
 }
 
 .main {
