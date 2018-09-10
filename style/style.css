@@ -1,0 +1,190 @@
+body {
+    width: 100vw;
+    color: #2D293C;
+    font-family: "HelveticaNeueLTStd-Roman", Arial, sans-serif;
+    background: #CADFFF;
+}
+
+a {
+    color: #2D293C;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    width: 70%;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+    line-height: 3.5rem;
+    font-family: "HelveticaNeueLTStd-Md", "Times", Arial, sans-serif;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+    font-family: "HelveticaNeueLTStd-Md", "Times", Arial, sans-serif;
+    margin-bottom: 5rem;
+}
+
+h4 {
+    font-size: 1.4rem;
+}
+
+h5 {
+    font-size: 1.3rem;
+    font-family: "HelveticaNeueLTStd-Md", "Times", Arial, sans-serif;
+    margin-bottom: 1.4rem;
+}
+header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+header > div {
+    z-index: 1;
+    width: 90vw;
+    height: 90px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(202, 223, 255, 0.5);
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li {
+    margin-right: 20px;
+    color: #2D293C;
+}
+
+header ul a {
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #2D293C;
+}
+
+header div a {
+    display: flex;
+    align-items: center;
+}
+
+header div p {
+    margin: 0;
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+header div img {
+    transform: translateY(-2px);
+}
+
+header div a {
+    text-decoration: none;
+}
+
+header div div img {
+    width: 40px;
+    align-self: center;
+}
+
+.main {
+    position: relative;
+    top: 90px;
+}
+
+section {
+    width: 100vw;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container > img {
+    width: 50%;
+}
+
+button {
+    background: #2D293C;
+    border: 0;
+    padding: 1rem 4rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+section.tecnologia {
+    background: #CADFFF;
+}
+
+section.tecnologia p {
+    margin-bottom: 2rem;
+}
+
+section.que-es-circus {
+    background: white;
+    padding: 120px 0;
+}
+
+section.que-es-circus > .container {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section.que-es-circus > .container > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+section.que-es-circus img {
+    width: 50%;
+}
+
+section.que-es-circus ul {
+    width: 25%;
+}
+
+section.que-es-circus ul p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #888;
+    width: 100%;
+}
+
+section.que-es-circus ul li {
+    margin-bottom: 2.3rem;
+}
+
+section.que-es-circus ul li:last-child {
+    margin: 0;
+}
+
+footer {
+    background: #F5C8CD;
+}
