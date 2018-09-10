@@ -11,7 +11,7 @@
 body {
     width: 100vw;
     color: #2D293C;
-    font-family: "Helvetica Neue Regular", Arial, sans-serif;
+    font-family: "Helvetica Neue Regular", "Work Sans Regular", Arial, sans-serif;
     background: #CADFFF;
 }
 
@@ -29,7 +29,7 @@ h1 {
     font-size: 3.2rem;
     margin-bottom: 2rem;
     line-height: 3.5rem;
-    font-family: "Helvetica Neue Medium", Arial, sans-serif;
+    font-family: "Helvetica Neue Medium", "Work Sans Medium", Arial, sans-serif;
 }
 
 h2 {
@@ -38,18 +38,18 @@ h2 {
 
 h3 {
     font-size: 2.4rem;
-    font-family: "Helvetica Neue Medium", Arial, sans-serif;
+    font-family: "Helvetica Neue Medium", "Work Sans Medium", Arial, sans-serif;
     margin-bottom: 5rem;
 }
 
 h4 {
     font-size: 2rem;
-    font-family: "Helvetica Neue Medium", Arial, sans-serif;
+    font-family: "Helvetica Neue Medium", "Work Sans Medium", Arial, sans-serif;
 }
 
 h5 {
     font-size: 1.3rem;
-    font-family: "Helvetica Neue Medium", Arial, sans-serif;
+    font-family: "Helvetica Neue Medium", "Work Sans Medium", Arial, sans-serif;
     margin-bottom: 1.4rem;
 }
 header {
@@ -146,7 +146,7 @@ button {
     color: white;
     font-size: 1.2rem;
     font-weight: 300;
-    font-family: "Helvetica Neue Medium", Arial, sans-serif;
+    font-family: "Helvetica Neue Medium", "Work Sans Medium", Arial, sans-serif;
 }
 
 button:hover {
