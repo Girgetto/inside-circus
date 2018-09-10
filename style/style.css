@@ -1,0 +1,30 @@
+.caras{
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: grey;
+  /* display: inline; */
+
+}
+
+.carasWrapp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carasImages{
+  width: 400px;
+  height: 300px;
+  display: none;
+  margin-bottom: 60px;
+}
+
+.active{
+  display: block;
+}
+.activeBut{
+  background-color: orange;
+}
