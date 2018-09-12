@@ -61,8 +61,8 @@ header {
     background: rgba(202, 223, 255, 0.5);
 }
 
-header > div > img {
-    width: 140px;
+header > div > a > img {
+    max-width: 140px;
 }
 
 header > div {
