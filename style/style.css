@@ -61,6 +61,10 @@ header {
     background: rgba(202, 223, 255, 0.5);
 }
 
+header > div > img {
+    width: 140px;
+}
+
 header > div {
     width: 90vw;
     display: flex;
@@ -124,7 +128,6 @@ section {
     padding-bottom: 60px;
     box-sizing: border-box;
 }
-
 
 .container {
     display: flex;
@@ -200,18 +203,50 @@ section.que-es-circus ul li:last-child {
 }
 
 footer {
-    background: #F5C8CD;
-    width: 100vw;
-    padding: 2.5rem 0;
-    display: flex;
-    justify-content: center;
+  background: #F5C8CD;
+  width: 100vw;
+  padding: 2.5rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.caras{
+  width: 10px;
+  height: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 3px;
+  background-color: grey;
+  
+
+}
+
+.carasWrapp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carasImages{
+  width: 400px;
+  height: 300px;
+  display: none;
+  margin-bottom: 60px;
+}
+
+.active{
+  display: block;
+}
+
+.activeBut{
+  background-color: orange;
 }
 
 .footer-wrap {
-    width: 75%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 

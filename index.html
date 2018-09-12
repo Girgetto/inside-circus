@@ -18,21 +18,20 @@
   <link rel="stylesheet" href="./style/reset.css">
   <link rel="stylesheet" href="./style/style.css">
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500" rel="stylesheet">
+  <script src="https://unpkg.com/smoothscroll-polyfill@0.4.3/dist/smoothscroll.min.js"></script>
 </head>
 
 <body>
 
-
-
   <header>
     <div>
-      <img src="./images/Circus_Imagotipo_Primario_Alfa_Negro@1x_sharp.png" alt="Circus logo">
+      <img src="./images/Circus_Imagotipo_Primario_Alfa_Negro@4x_sharp.png" alt="Circus logo">
 
       <ul>
-        <li><a href="#1">Por qué Circus</a></li>
-        <li><a href="#2">Curso</a></li>
-        <li><a href="#3">Fechas</a></li>
-        <li><a href="#4">Contacto</a></li>
+        <li><a class="anchor" href="#que-es-circus." name="que-es-circus">Por qué Circus</a></li>
+        <li><a class="anchor" href="#" name="que-es-circus">Curso</a></li>
+        <li><a class="anchor" href="#" name="18-ahoras">Fechas</a></li>
+        <li><a class="anchor" href="#" name="madrid">Contacto</a></li>
       </ul>
 
       <div>
@@ -44,156 +43,190 @@
     </div>
   </header>
 
+  <div class="main">
 
-<div class="main">
+    <section id="tecnologia" class="tecnologia">
 
-  <section class="tecnologia">
+      <div class="container">
+        <div>
+          <h1>Aprovecha la
+            tecnología</h1>
+          <p>Circus te ofrece un nuevo mundo de oportunidades tecnológicas sin ningún costo.</p>
+          <a href="https://ironhack.typeform.com/to/Y7vGMh">
+            <button>Aplica ahora</button>
+          </a>
+        </div>
 
-    <div class="container">
-      <div>
-        <h1>Descubre la
-          tecnología</h1>
-        <p>Circus te ofrece un nuevo mundo de oportunidades tecnológicas sin ningún coste.</p>
-        <a href="https://ironhack.typeform.com/to/Y7vGMh"target="_blank">
-          <button>Aplica ahora</button>
-        </a>
+        <img src="./images/Group 30.png" alt="Chignon noir">
       </div>
 
-      <img src="./images/Group 30.png" alt="Chignon noir">
-    </div>
-
-  </section>
+    </section>
 
 
-  
-  <section class="que-es-circus">
+    
+    <section id="que-es-circus" class="que-es-circus">
 
-    <div class="container">
-      <h3>Haz que tu ordenador haga el trabajo sucio.</h3>
+      <div class="container">
+        <h3>Haz que tu ordenador haga el trabajo sucio.</h3>
+        
+        <div>
+          <img src="./images/Group 3.png" alt="Bald guy">
+
+          <ul>
+            <li>
+              <h5>¿Qué es Circus?</h5>
+              <p>Somos la primera escuela que enseña habilidades digitales desde cero para todos los que no se imaginaban que podían hacer una carrera de ellas.</p>
+            </li>
+            <li>
+              <h5>¿Qué hacemos?</h5>
+              <p>Ofrecemos cursos sobre tecnología para gente no iniciada. Ahora podrás ser parte de la creación de estrategias digitales comprendiendo productos tecnológicos.</p>
+            </li>
+            <li>
+              <h5>¿Por qué es gratuito?</h5>
+              <p>Creemos que el conocimiento y las habilidades digitales deberían estar al alcance de todos.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+
+
+    <!-- <section class="18-ahoras">
+
+      <div class="container">
+        <div>
+          <h2>
+            Dos días,<br />
+            18 horas de clase.<br />
+            Algunos de los mejores<br />
+            profesionales del sector.
+          </h2>
+          <a href="https://ironhack.typeform.com/to/Y7vGMh">
+            <button>Aplica ahora</button>
+          </a>
+        </div>
+
+        <img src="" alt="Weird forms">
+      </div>
+    
+    </section>
+
+
+
+    <section class="madrid">
       
-      <div>
-        <img src="./images/Group 3.png" alt="Group event">
+      <div class="container madrid">
+        <img src="" alt="People in class">
 
-        <ul>
-          <li>
-            <h5>¿Qué es Circus?</h5>
-            <p>Somos la primera escuela que enseña habilidades digitales desde cero para todos aquellos interesados en saber más sobre la industria tecnológica</p>
-          </li>
-          <li>
-            <h5>¿Qué hacemos?</h5>
-            <p>Ofrecemos cursos sobre tecnología para gente no iniciada. Ahora podrás ser parte de la creación de estrategias digitales comprendiendo productos tecnológicos.</p>
-          </li>
-          <li>
-            <h5>¿Por qué es gratuito?</h5>
-            <p>Creemos que el conocimiento y las habilidades digitales deberían estar al alcance de todos.</p>
-          </li>
-        </ul>
+        <div>
+          <h2>Circus I Madrid</h2>
+          <div>WEIRD JS BLOCK</div>
+        </div>
       </div>
-    </div>
 
-  </section>
+    </section>
+
+  -->
+
+    <!-- <section class="buscamos">
+
+      <div class="container buscamos">
+        <div class="left">
+          <p>Selección</p>
+          <h2>Tienes lo que buscamos?</h2>
+          <p>Las plazas de cada edición son limitadas entonces queremos asegurarnos de que las personas más interesadas tengan sitio.</p>
+        </div>
+
+        <div class="right">
+          <ul>
+            <li>
+              <img src="" alt="img1">
+              <p>Eres apasionado por aprender cosas nuevas</p>
+            </li>
+            <li>
+              <img src="" alt="img2">
+              <p>Siempre has sentido curiosidad por la tecnología</p>
+            </li>
+            <li>
+              <img src="" alt="img3">
+              <p>Quieres entender mejor cómo funcionan los productos digitales</p>
+            </li>
+            <li>
+              <img src="" alt="img3">
+              <p>Quieres conocer las profesiones dentro de un equipo tech</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    
+    </section> -->
 
 
 
-  <!-- <section class="18-ahoras">
+    <!-- <section class="beginning">
 
-    <div class="container">
-      <div>
-        <h2>
-          Dos días,<br />
-          18 horas de clase.<br />
-          Algunos de los mejores<br />
-          profesionales del sector.
-        </h2>
+      <div class="container">
+        <img src="" alt="">
+
+        <div class="carasWrapp">
+
+          <div id="img1" class="carasImages active">
+            <p>Our students say</p>
+            <h4>"Circus was for me the beginning of a life changing experiecne. I didn't kno all these opportunities were waiting for me.</h4>
+            <p>Chris Cornell - Circus I attendant</p>
+          </div>
+
+          <div id="img2" class="carasImages">
+            <p>Test 2</p>
+            <h4>"Circus was for me the beginning of a life changing experiecne. I didn't kno all these opportunities were waiting for me.</h4>
+            <p>Chris Cornell - Circus I attendant</p>
+          </div > 
+          
+          <div id="img3" class="carasImages">
+              <p>Test 3</p>
+              <h4>"Circus was for me the beginning of a life changing experiecne. I didn't kno all these opportunities were waiting for me.</h4>
+              <p>Chris Cornell - Circus I attendant</p>
+          </div>  
+
+          <div id="img4" class="carasImages">
+              <p>Test 4</p>
+              <h4>"Circus was for me the beginning of a life changing experiecne. I didn't kno all these opportunities were waiting for me.</h4>
+              <p>Chris Cornell - Circus I attendant</p>
+          </div>
+
+          <div id="img5" class="carasImages">
+              <p>Test 5</p>
+              <h4>"Circus was for me the beginning of a life changing experiecne. I didn't kno all these opportunities were waiting for me.</h4>
+              <p>Chris Cornell - Circus I attendant</p>
+          </div> 
+
+        </div>
+
+        <div class="carasWrapp">
+
+          <div id="caras1" class="caras activeBut"></div>
+          <div id="caras2" class="caras"></div>
+          <div id="caras3" class="caras"></div>
+          <div id="caras4" class="caras"></div>
+          <div id="caras5" class="caras"></div>
+        </div>
+
+      </div>
+    
+    </section>  -->
+    
+    <footer>
+      <div class="footer-wrap">
+        <h4>Quieres participar de la primera edición?</h4>
         <a href="https://ironhack.typeform.com/to/Y7vGMh">
           <button>Aplica ahora</button>
         </a>
       </div>
+    </footer>
 
-      <img src="" alt="Weird forms">
-    </div>
-  
-  </section>
-
-
-
-  <section class="madrid">
-    
-    <div class="container madrid">
-      <img src="" alt="People in class">
-
-      <div>
-        <h2>Circus I Madrid</h2>
-        <div>WEIRD JS BLOCK</div>
-      </div>
-    </div>
-
-  </section>
-
-
-
-  <section class="buscamos">
-
-    <div class="container buscamos">
-      <div class="left">
-        <p>Selección</p>
-        <h2>Tienes lo que buscamos?</h2>
-        <p>Las plazas de cada edición son limitadas entonces queremos asegurarnos de que las personas más interesadas tengan sitio.</p>
-      </div>
-
-      <div class="right">
-        <ul>
-          <li>
-            <img src="" alt="img1">
-            <p>Eres apasionado por aprender cosas nuevas</p>
-          </li>
-          <li>
-            <img src="" alt="img2">
-            <p>Siempre has sentido curiosidad por la tecnología</p>
-          </li>
-          <li>
-            <img src="" alt="img3">
-            <p>Quieres entender mejor cómo funcionan los productos digitales</p>
-          </li>
-          <li>
-            <img src="" alt="img3">
-            <p>Quieres conocer las profesiones dentro de un equipo tech</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  
-  </section>
-
-
-
-  <section class="beginning">
-
-    <div class="container">
-      <img src="" alt="">
-
-      <div>
-        <p>Our students say</p>
-        <h4>"Circus was for me the beginning of a life changing experiecne. I didn't kno all these opportunities were waiting for me.</h4>
-        <p>Chris Cornell - Circus I attendant</p>
-      </div>
-    </div>
-
-  </section> 
-  
-</div> -->
-
-
-  <footer>
-    <div class="footer-wrap">
-      <h4>Quieres participar de la primera edición?</h4>
-      <a href="https://ironhack.typeform.com/to/Y7vGMh">
-        <button>Aplica ahora</button>
-      </a>
-    </div>
-  </footer>
-
-
-  
+  </div>
+  <script src="./javascript/script.js"></script>
 </body>
 </html>
