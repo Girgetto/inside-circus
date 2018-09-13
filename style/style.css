@@ -365,6 +365,26 @@ footer {
         width: 100%;
     }
 
+    section.buscamos {
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    section.buscamos .left,
+    section.buscamos .right {
+        width: 100%;
+        padding: 120px 8vw;
+    }
+
+    section.buscamos .left h2,
+    section.buscamos .left p {
+        width: 80%;
+    }
+
+    section.buscamos .right {
+        justify-content: flex-start;
+    }
+
     footer .footer-wrap {
         text-align: center;
         width: 100vw;
