@@ -17,6 +17,7 @@ body {
 
 a {
     color: #2D293C;
+    cursor: pointer;
 }
 
 p {
@@ -80,6 +81,10 @@ header ul {
 header ul li {
     margin-right: 20px;
     color: #2D293C;
+}
+
+header ul li:last-child {
+    margin-right: 0;
 }
 
 header ul a {
