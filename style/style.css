@@ -36,7 +36,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.3rem;
+    font-size: 2.6rem;
 }
 
 h3 {
@@ -207,6 +207,62 @@ section.que-es-circus ul li:last-child {
     margin: 0;
 }
 
+section.buscamos {
+    display: flex;
+    padding: 0;
+}
+
+section.buscamos .left,
+section.buscamos .right {
+    width: 50%;
+    padding: 120px 0;
+}
+
+section.buscamos .right {
+    background: white;
+    padding-right: 12.5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+section.buscamos .right ul {
+    width: 80%;
+}
+
+section.buscamos .right ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section.buscamos .right ul li img {
+    width: 40px;
+    margin-right: 20px;
+}
+
+section.buscamos .right p {
+    width: 100%;
+    font-family: "Helvetica Neue Medium", "Work Sans Medium", Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+section.buscamos .left {
+    padding-left: 12.5%;
+}
+
+section.buscamos .left p {
+    font-size: 1.1rem;
+    color: #999;
+    margin-bottom: 0.5rem;
+    line-height: 1.6rem;
+}
+
+section.buscamos .left h2 {
+    width: 60%;
+    line-height: 3.7rem;
+    margin-bottom: 1.4rem;
+}
+
 footer {
   background: #F5C8CD;
   width: 100vw;
@@ -222,8 +278,6 @@ footer {
   border-radius: 50%;
   margin: 3px;
   background-color: grey;
-  
-
 }
 
 .carasWrapp{
