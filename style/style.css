@@ -168,6 +168,28 @@ section.tecnologia p {
     margin-bottom: 2rem;
 }
 
+section.collaboradores {
+    background: white;
+    padding: 120px 0;
+}
+
+section.collaboradores .container {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section.collaboradores .collab-logos {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+section.collaboradores .collab-logos img {
+    height: 12rem;
+    align-self: center;
+    /* margin-right: 10rem; */
+}
+
 section.que-es-circus {
     background: #B9E9E4;
     padding: 120px 0;
