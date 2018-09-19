@@ -237,6 +237,23 @@ section.que-es-circus ul li:last-child {
     margin: 0;
 }
 
+section.madrid {
+    background: white;
+    padding: 120px 0;
+}
+
+section.madrid .container {
+    align-items: flex-start;
+}
+
+section.madrid .container > img {
+    width: 40%;
+}
+
+section.madrid .container > div {
+    width: 50%;
+}
+
 section.buscamos {
     display: flex;
     padding: 0;

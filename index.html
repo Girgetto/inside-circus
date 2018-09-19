@@ -16,6 +16,7 @@
   <title>Circus</title>
   <link rel="stylesheet" href="./style/reset.css">
   <link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/days.css">
   <link rel="shortcut icon" type="image/png" href="/images/favicon.ico"/>
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500" rel="stylesheet">
 </head>
@@ -128,23 +129,42 @@
       </div>
     
     </section>
-
+    
+  -->
 
 
     <section class="madrid">
       
-      <div class="container madrid">
-        <img src="" alt="People in class">
+      <div class="container">
+        <img src="./images/madrid-section.jpg" alt="People in class">
 
         <div>
           <h2>Circus I Madrid</h2>
-          <div>WEIRD JS BLOCK</div>
+          <div class="daysWrap">
+            <div class="daysButWrap">
+              <div id="dayBut1" class="days-but activeBut"> <p>Día 1</p></div>
+              <div id="dayDash1" class="days-dash activeDash"></div>
+              
+              <div id="dayDash2" class="days-dash"></div>
+              <div id="dayBut2" class="days-but"><p>Día 2</p></div>
+            </div>
+            
+            <div id="day1" class="days active">
+              <p class="grey-p">20/10/2018 10:00 - 20:00</p>
+              <h5>Sobre puestos de trabajos y agilidad digital</h5>
+              <p>Conoce los distintos perfiles que puede tener un equipo tecnológico y las historias detrás de cada uno de ellos. Aprende de qué van las metodologías agiles y utiliza design thinking para resolver problemas reales!</p>
+            </div>
+            <div id="day2" class="days">
+              <p class="grey-p">21/10/2018 10:00 - 20:00</p>
+              <h5>Cómo funciona internet y otros misterios</h5>
+              <p>Descubre qué hay detrás de las páginas web y apps entendiendo cómo funciona internet. Ponte tu disfraz de hacker y aprende los básicos de programación y haz tu propia landing page.</p>
+            </div>
+          </div>
         </div>
       </div>
 
     </section>
 
-  -->
 
     <section id="buscamos" class="buscamos">
 
@@ -242,5 +262,6 @@
 
   </div>
   <script src="./javascript/script.js"></script>
+  <script src="./javascript/days.js"></script>
 </body>
 </html>

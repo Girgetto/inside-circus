@@ -1,0 +1,86 @@
+.days{
+    display: none;
+}
+
+.madrid .container h2 {
+  margin-bottom: 3rem;
+}
+
+.days p {
+  font-size: 1.1rem;
+  color: #888;
+  margin-bottom: 1rem;
+  line-height: 1.7rem;
+  width: 100%;
+}
+  
+.days h5 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.active{
+  display: block;
+}
+
+.daysWrap {
+  display: flex;
+}
+
+.daysButWrap {
+  /* width: 60%; */
+  min-width: 90px;
+  margin-right: 50px;
+}
+
+.daysButWrap p {
+  font-size: 1.5rem;
+  font-family: "Helvetica Neue Medium", "Work Sans Medium", Arial, sans-serif;
+}
+
+.days-but{
+    color: grey
+}
+
+.days-but,
+.days-dash {
+  cursor: pointer;
+}
+
+.days-dash {
+  box-sizing: border-box;
+  height: 50px;
+  border-left: 2px solid grey;
+}
+
+.activeBut{
+  background-color: transparent;
+  color: #2D293C;
+}
+
+.activeDash{
+  box-sizing: border-box;
+  border-left: 2px solid black;
+}
+
+/* .daysWrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+/* .daysButWrap{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+} */
+
+
+
+/* .days-but{
+  display: inline-block;
+  margin: 20px;
+  position: absolute;
+  margin-bottom: 200px;
+} */
