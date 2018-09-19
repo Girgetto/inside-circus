@@ -387,7 +387,8 @@ footer {
     }
 
     section.tecnologia img,
-    section.que-es-circus img {
+    section.que-es-circus img,
+    section.madrid .container img {
         width: 80vw;
         margin-bottom: 40px;
     }

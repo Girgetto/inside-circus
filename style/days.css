@@ -63,24 +63,39 @@
   border-left: 2px solid black;
 }
 
-/* .daysWrap{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+@media screen and (max-width: 768px) {
 
+  section.madrid .container {
+    flex-direction: column;
+  }
 
-/* .daysButWrap{
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-} */
+  section.madrid .container .daysWrap{
+    flex-direction: column;
+  }
 
+  section.madrid .container > div {
+    width: 100%;
+  }
 
+  section.madrid .daysButWrap {
+    width: 100%;
+    margin: 0 0 40px;
+    display: flex;
+    justify-content: center;
+  }
 
-/* .days-but{
-  display: inline-block;
-  margin: 20px;
-  position: absolute;
-  margin-bottom: 200px;
-} */
+  .days-but {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid;
+    min-width: 100px;
+  }
+  .days-but p {
+    text-align: center;
+    width: 100%;
+  }
+  
+  .days-dash {
+    display: none;
+  }
+
+}
