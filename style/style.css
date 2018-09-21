@@ -146,6 +146,11 @@ section {
     width: 55%;
 }
 
+.row {
+    display: flex;
+    justify-content: center;
+}
+
 button {
     background: #2D293C;
     border: 0;
@@ -209,6 +214,41 @@ section.collaboradores .collab-logos img {
 .cabify-img {
     height: 5rem;
     width: 10rem;
+}
+
+section.aprender {
+    background: #2D293C;
+}
+
+section.aprender h5 {
+    color: #FFF;
+}
+
+section.aprender .container {
+    display: block;
+}
+
+section.aprender h3{
+    color: #fff;
+}
+
+.aprender p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #888;
+    width: 100%;
+}
+
+section.esperas {
+    background: #fff;
+}
+
+section.esperas .top-text{
+    margin-bottom:7rem;
+}
+
+section.esperas img {
+    width:15rem;
 }
 
 section.que-es-circus {
@@ -457,6 +497,37 @@ footer {
 
     section.collaboradores .collab-logos img {
         height: 10rem;
+    }
+
+    section.aprender .container .row {
+        flex-direction: column;
+    }
+
+    section.esperas .container {
+        flex-direction: column;
+    }
+
+    section.esperas .container .column{
+        margin-bottom: 5rem;
+       
+    }
+
+    .top-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .bottom-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
     }
 
     section.que-es-circus h3 {
