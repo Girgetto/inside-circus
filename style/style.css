@@ -148,7 +148,6 @@ section {
 
 .row {
     display: flex;
-    justify-content: center;
 }
 
 button {
@@ -230,6 +229,15 @@ section.aprender .container {
 
 section.aprender h3{
     color: #fff;
+    margin-left: -10%;
+}
+
+.up, .bottom{
+    width: 30%;
+}
+
+.up {
+    margin-right: 10rem;
 }
 
 .aprender p {
@@ -503,13 +511,12 @@ footer {
         flex-direction: column;
     }
 
-    section.esperas .container {
-        flex-direction: column;
+    .up, .bottom{
+        width: 100%;
     }
 
-    section.esperas .container .column{
-        margin-bottom: 5rem;
-       
+    section.esperas .container {
+        flex-direction: column;
     }
 
     .top-text {
