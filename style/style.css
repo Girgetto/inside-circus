@@ -229,7 +229,11 @@ section.aprender .container {
 
 section.aprender h3{
     color: #fff;
-    margin-left: -10%;
+}
+
+section.aprender .row {
+    display: flex;
+    justify-content: center;
 }
 
 .up, .bottom{
@@ -257,6 +261,10 @@ section.esperas .top-text{
 
 section.esperas img {
     width:15rem;
+}
+
+section.esperas h3 {
+    margin-bottom:1rem;
 }
 
 section.que-es-circus {
