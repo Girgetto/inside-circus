@@ -527,6 +527,10 @@ footer {
         flex-direction: column;
     }
 
+    section.esperas button {
+        margin-bottom:60px;
+    }
+
     .top-text {
         display: flex;
         flex-direction: column;
