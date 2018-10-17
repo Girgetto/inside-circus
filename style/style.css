@@ -526,6 +526,11 @@ footer {
         flex-direction: column;
     }
 
+    section.collaboradores .collab-logos .box > div{
+        height: 8rem;
+        margin-bottom: 1rem;
+    }
+
     .deliveroo-img {
         zoom: 1;
     }
