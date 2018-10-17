@@ -213,6 +213,7 @@ section.collaboradores .collab-logos {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    width: 15rem;
 }
 
 section.collaboradores .collab-logos img {
@@ -527,12 +528,7 @@ footer {
     }
 
     section.collaboradores .collab-logos .box > div{
-        height: 8rem;
         margin-bottom: 1rem;
-    }
-
-    .deliveroo-img {
-        zoom: 1;
     }
 
     section.collaboradores .collab-logos img {
