@@ -177,8 +177,8 @@ section.collaboradores {
     padding: 60px 0;
 }
 
-section.collaboradores .container > div {
-    width: 50%;
+section.collaboradores .container > div.collab-logos {
+    width: 70%;
 }
 
 section.collaboradores h3 {
@@ -192,8 +192,23 @@ section.collaboradores h3 {
 }
 
 section.collaboradores .collab-logos {
+    min-height: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.collab-logos > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+}
+
+.collab-logos > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 section.collaboradores .collab-logos img {
