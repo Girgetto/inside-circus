@@ -639,6 +639,23 @@ section.eventos .column{
         align-items: center;
     }
 
+    section.eventos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.eventos .right{
+        width: 100vw;
+        padding: 120px 8vw;
+        box-sizing: border-box;
+    }
+
+    section.eventos .left {
+        width: 100vw;
+        padding: 120px 8vw;
+        box-sizing: border-box;
+    }
+
     section.que-es-circus h3 {
         margin-bottom: 2rem;
     }
