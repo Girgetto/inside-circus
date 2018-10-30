@@ -216,6 +216,8 @@ section.collaboradores .collab-logos {
     margin: 0 30px;
 }
 
+
+
 .collab-logos > div > div {
     display: flex;
     justify-content: center;
@@ -521,6 +523,11 @@ section.eventos .column{
     padding-left: 10%;
 }
 
+@media screen and (min-width:1201px)  {
+    .cabify-img {
+        margin-left: -25% !important;
+    }
+}
 @media screen and (max-width:1200px) and (min-width:768px) {
     section.collaboradores .container > div {
         width: 50%;
@@ -529,6 +536,9 @@ section.eventos .column{
 
     section.collaboradores .container > div.collab-logos {
         width: 40%;
+    }
+    .cabify-img {
+        margin-left: -25% !important;
     }
 }
 
