@@ -177,6 +177,10 @@ section.collaboradores {
     padding: 60px 0;
 }
 
+section.collaboradores .nuestros-collaboradores{
+    margin-left: 5%;
+}
+
 section.collaboradores .container{
     display: block;
 }
@@ -201,6 +205,7 @@ section.collaboradores h3 {
 section.collaboradores .collab-logos {
     min-height: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
 }
@@ -208,7 +213,6 @@ section.collaboradores .collab-logos {
 .collab-logos > div {
     display: flex; 
     justify-content: center;
-    flex-direction: column;
     margin: 0 30px;
 }
 
