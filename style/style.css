@@ -177,8 +177,8 @@ section.collaboradores {
     padding: 60px 0;
 }
 
-section.collaboradores .container > div.collab-logos {
-    width: 70%;
+section.collaboradores .container{
+    display: block;
 }
 
 .deliveroo-img {
@@ -186,8 +186,11 @@ section.collaboradores .container > div.collab-logos {
 }
 
 section.collaboradores h3 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #2d293c;
     margin-bottom: 0;
-    line-height: 3rem;
 }
 
 .light {
@@ -204,9 +207,9 @@ section.collaboradores .collab-logos {
 
 .collab-logos > div {
     display: flex; 
-    flex-basis: calc(50% - 40px);  
     justify-content: center;
     flex-direction: column;
+    margin: 0 30px;
 }
 
 .collab-logos > div > div {
