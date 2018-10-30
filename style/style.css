@@ -448,6 +448,72 @@ footer {
   align-items: center;
 }
 
+section.eventos {
+    display: flex;
+    padding: 0;
+}
+
+section.eventos .left {
+    padding: 120px 0;
+    padding-left: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    background-color: #f5c8cd;
+}
+
+section.eventos .right {
+    padding: 120px 0;
+    padding-right: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    background-color: white;
+}
+
+section.eventos p {
+    opacity: 0.4;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+
+section.eventos h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+section.eventos input[type=text] {
+    width: 70%;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin-top: 20px;
+}
+
+section.eventos button {
+    margin: 50px 0;
+}
+
+section.eventos .dates {
+    display: flex;
+    padding: 5% 0;
+}
+
+section.eventos h6 {
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: HelveticaNeue;
+}
+
+section.eventos .column{
+    padding-left: 10%;
+}
+
 @media screen and (max-width:1200px) and (min-width:768px) {
     section.collaboradores .container > div {
         width: 50%;
