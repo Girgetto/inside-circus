@@ -177,8 +177,12 @@ section.collaboradores {
     padding: 60px 0;
 }
 
-section.collaboradores .container > div.collab-logos {
-    width: 70%;
+section.collaboradores .nuestros-collaboradores{
+    margin-left: 5%;
+}
+
+section.collaboradores .container{
+    display: block;
 }
 
 .deliveroo-img {
@@ -186,8 +190,11 @@ section.collaboradores .container > div.collab-logos {
 }
 
 section.collaboradores h3 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #2d293c;
     margin-bottom: 0;
-    line-height: 3rem;
 }
 
 .light {
@@ -198,21 +205,24 @@ section.collaboradores h3 {
 section.collaboradores .collab-logos {
     min-height: 100%;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
 .collab-logos > div {
     display: flex; 
-    flex-basis: calc(50% - 40px);  
     justify-content: center;
-    flex-direction: column;
+    margin: 0 30px;
 }
+
+
 
 .collab-logos > div > div {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    width: 15rem;
 }
 
 section.collaboradores .collab-logos img {
@@ -447,10 +457,92 @@ footer {
   align-items: center;
 }
 
-@media screen and (max-width:1200px) and (min-width:769px) {
+section.eventos {
+    display: flex;
+    padding: 0;
+}
+
+section.eventos .left {
+    padding: 120px 0;
+    padding-left: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    background-color: #f5c8cd;
+}
+
+section.eventos .right {
+    padding: 120px 0;
+    padding-right: 12.5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    background-color: white;
+}
+
+section.eventos p {
+    opacity: 0.4;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.4px;
+}
+
+section.eventos h1 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+section.eventos input[type=email] {
+    width: 70%;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin-top: 20px;
+}
+
+section.eventos button {
+    margin: 50px 0;
+}
+
+section.eventos .dates {
+    display: flex;
+    padding: 5% 0;
+}
+
+section.eventos h6 {
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: HelveticaNeue;
+}
+
+section.eventos .column{
+    padding-left: 10%;
+}
+
+@media screen and (min-width:1201px)  {
+    .cabify-img {
+        margin-left: -25% !important;
+    }
+}
+@media screen and (max-width:1200px) and (min-width:768px) {
     section.collaboradores .container > div {
         width: 50%;
         flex-flow: row wrap;
+    }
+
+    section.collaboradores .container > div.collab-logos {
+        width: 40%;
+    }
+    .cabify-img {
+        margin-left: -25% !important;
     }
 }
 
@@ -527,12 +619,7 @@ footer {
     }
 
     section.collaboradores .collab-logos .box > div{
-        height: 8rem;
         margin-bottom: 1rem;
-    }
-
-    .deliveroo-img {
-        zoom: 1;
     }
 
     section.collaboradores .collab-logos img {
@@ -571,6 +658,23 @@ footer {
         justify-content: center;
         align-content: center;
         align-items: center;
+    }
+
+    section.eventos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.eventos .right{
+        width: 100vw;
+        padding: 120px 8vw;
+        box-sizing: border-box;
+    }
+
+    section.eventos .left {
+        width: 100vw;
+        padding: 120px 8vw;
+        box-sizing: border-box;
     }
 
     section.que-es-circus h3 {
