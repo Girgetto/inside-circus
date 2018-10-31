@@ -293,6 +293,10 @@ section.quotes .active .quote-text {
     flex-direction: column;
 }
 
+section.quotes .circles {
+    display: none;
+}
+
 section.aprender {
     background: #2D293C;
 }
@@ -735,8 +739,23 @@ section.eventos .column{
         flex-direction: column;
     }
 
-    section.quotes #arrow-left{
+    section.quotes .arrows{
         display: none;
+    }
+
+    section.quotes .circles {
+        display: flex;
+        margin: 5%;
+    }
+
+    section.quotes .fa-circle {
+        margin: 5%;
+    }
+
+    section.quotes .author-img {
+        display: flex;
+        justify-content: center;
+        align-content: center;
     }
 
     section.quotes p {
