@@ -245,17 +245,51 @@ section.collaboradores .collab-logos img {
     width: 10rem;
 }
 
+section.quotes {
+    background-color: white;
+}
+
 section.quotes .quote {
     display: none;
 }
 
+section.quotes p {
+    width: 80%;
+}
+
 section.quotes .active {
     display: flex;
+    justify-content: space-around;
+}
+
+section.quotes .arrows {
+    margin: 5%;
+}
+
+section.quotes .arrows img {
+    width: 100px;
+}
+
+section.quotes .quote > img {
+    width: 327px;
+    height: 327px;
+}
+
+section.quotes .container {
+    width: 100%;
+}
+
+section.quotes .arrows #img-arrow-left {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
 }
 
 section.quotes .active .quote-text {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 
@@ -695,6 +729,28 @@ section.eventos .column{
         width: 100vw;
         padding: 120px 8vw;
         box-sizing: border-box;
+    }
+
+    section.quotes .quote {
+        flex-direction: column;
+    }
+
+    section.quotes #arrow-left{
+        display: none;
+    }
+
+    section.quotes p {
+        width: 100%;
+    }
+
+    section.quotes .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    section.quotes img {
+        margin-top: 20%;
     }
 
     section.que-es-circus h3 {

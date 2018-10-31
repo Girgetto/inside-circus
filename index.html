@@ -29,6 +29,8 @@
   <link rel="stylesheet" href="./style/days.css">
   <link rel="shortcut icon" type="image/png" href="./images/favicon.ico" />
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="./style/animate.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
 
 </head>
 
@@ -107,7 +109,10 @@
 
     <section class="quotes">
       <div class="container">
-        <div id="quote1" class="quote active">
+        <div class="arrows">
+          <a id="arrow-left"><i class="fas fa-arrow-left"></i></a>
+        </div>
+        <div id="quote1" class="animated fadeIn quote active">
           <div class="quote-text">
             <p>"Vivimos en una era en la que todo está relacionado con la tecnología - incluso aquellos perfiles que, a
               priori, pueden parecer menos técnicos - por eso es fundamental adquirir conocimientos sobre el mundo
@@ -115,9 +120,9 @@
             </p>
             <p>- Emilio García, Head of Design CARTO</p>
           </div>
-          <img src="./images/emilio carto.jpeg" alt="">
+          <img src="./images/emilio carto.jpeg" alt="author">
         </div>
-        <div id="quote2" class="quote">
+        <div id="quote2" class="animated fadeIn quote">
           <div class="quote-text">
             <p>"La educación digital ha cambiado nuestra formar de aprender. Ya no hay barreras entre el conocimiento y
               el
@@ -125,7 +130,10 @@
             </p>
             <p>- Alberto González-Calero, Head of Data Engineering Cabify</p>
           </div>
-          <img src="./images/alberto.jpeg" alt="">
+          <img src="./images/alberto.jpeg" alt="author">
+        </div>
+        <div class="arrows">
+          <a id="arrow-right"><i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </section>
@@ -417,6 +425,7 @@
   </div>
   <script src="./javascript/script.js"></script>
   <script src="./javascript/days.js"></script>
+  <script src="./javascript/quotes.js"></script>
 </body>
 
 </html>
