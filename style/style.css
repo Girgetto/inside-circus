@@ -245,6 +245,20 @@ section.collaboradores .collab-logos img {
     width: 10rem;
 }
 
+section.quotes .quote {
+    display: none;
+}
+
+section.quotes .active {
+    display: flex;
+}
+
+section.quotes .active .quote-text {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
 section.aprender {
     background: #2D293C;
 }

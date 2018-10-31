@@ -1,27 +1,27 @@
-var imagesArr  = document.querySelectorAll('.carasImages');
-var buttonArr = document.querySelectorAll('.caras');
-var activeID;
-var activeImg;
-var bool = true;
-var i = 0
+const imagesArr = document.querySelectorAll('.carasImages');
+const buttonArr = document.querySelectorAll('.caras');
+let activeID;
+let activeImg;
+let bool = true;
+const i = 0;
 
-buttonArr.forEach(one => {
-  one.onclick = function(){
+buttonArr.forEach((one) => {
+  one.onclick = function () {
     bool = false;
-    buttonArr.forEach(one => {
+    buttonArr.forEach((one) => {
       one.classList.remove('activeBut');
     });
-    one.classList.add('activeBut')
-    activeID = one.getAttribute('id')[one.getAttribute('id').length-1];
-    imagesArr.forEach(one=>{
-      one.classList.remove('active')
-      one.getAttribute('id')[one.getAttribute('id').length-1] === activeID ? activeImg = one: activeImg = activeImg;
-    })
-    activeImg.classList.add('active')
+    one.classList.add('activeBut');
+    activeID = one.getAttribute('id')[one.getAttribute('id').length - 1];
+    imagesArr.forEach((one) => {
+      one.classList.remove('active');
+      one.getAttribute('id')[one.getAttribute('id').length - 1] === activeID ? activeImg = one : activeImg = activeImg;
+    });
+    activeImg.classList.add('active');
     setTimeout(() => {
       bool = true;
-    }, 6*1000);
-  }
+    }, 6 * 1000);
+  };
 });
 
 // setInterval(() => {
@@ -30,14 +30,14 @@ buttonArr.forEach(one => {
 //     buttonArr.forEach(one => {
 //       one.classList.remove('activeBut');
 //     });
-    
+
 //     imagesArr.forEach(one=>{
 //       one.classList.remove('active')
 //     });
-    
+
 //     imagesArr[i].classList.add('active');
 //     buttonArr[i].classList.add('activeBut')
-    
+
 //     if (i===imagesArr.length-1) {
 //       i = 0
 //     } else {
@@ -46,15 +46,15 @@ buttonArr.forEach(one => {
 //   }
 // }, 1000*3);
 
-let anchors = document.querySelectorAll( ".anchor" );
+const anchors = document.querySelectorAll('.anchor');
 
-anchors.forEach( each => {
+anchors.forEach((each) => {
   each.onclick = goToAnchor;
 });
 
-function goToAnchor( event ) {
-  let anchor = `#${event.target.name}`;
-  console.log( anchor );
+function goToAnchor(event) {
+  const anchor = `#${event.target.name}`;
+  console.log(anchor);
   document.querySelector(anchor).scrollIntoView({ behavior: 'smooth' });
 
   // window.scroll({ top: 0, left: 0, behavior: 'smooth' });
