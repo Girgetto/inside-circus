@@ -26,6 +26,7 @@ p {
     width: 70%;
 }
 
+
 h1, h2, h3, h4, h5 {
     font-family: "Helvetica Neue Medium", "Work Sans Medium", Arial, sans-serif;
 }
@@ -719,4 +720,7 @@ section.eventos .column{
     footer .footer-wrap h4 {
         margin-bottom: 2rem;
     }
+}
+.column p{
+    width: 100%
 }
