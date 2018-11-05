@@ -409,6 +409,34 @@ section.madrid .container > div {
     width: 50%;
 }
 
+section.videos {
+    background-color: #f5c8cd;
+}
+
+section.videos .container {
+    flex-direction: column;
+}
+
+section.videos .container h2 {
+    margin: 5rem;
+}
+
+section.videos .container .row {
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+section.videos .container .row .col{
+    margin-bottom: 2rem;
+    margin: 2rem;
+}
+
+section.videos .container .row .col .video-frame{
+    width: 25rem;
+    height: 15rem;
+}
+
 section.buscamos {
     display: flex;
     padding: 0;
@@ -782,6 +810,26 @@ section.eventos .column{
 
     section.que-es-circus .container div ul {
         width: 100%;
+    }
+
+    section.videos .container .row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    section.videos .container .row .col {
+        width: 100%;
+    }
+
+    section.videos .container .row .video-frame {
+        width: 100%;
+        height: 20rem;
+        margin-bottom: 2rem;
+    }
+
+    section.videos .container .row .col .video-frame{
+        width: 100%;
+        height: 20rem;
     }
 
     section.buscamos {
