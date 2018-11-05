@@ -2,37 +2,41 @@ const buttonLeft = document.getElementById('arrow-left');
 const buttonRight = document.getElementById('arrow-right');
 const div1 = document.getElementById('quote1');
 const div2 = document.getElementById('quote2');
-const div2 = document.getElementById('quote3');
-const imgA = document.getElementById('img-alberto');
-const imgE = document.getElementById('img-emilio');
-const imgI = document.getElementById('img-ignacio');
+const div3 = document.getElementById('quote3');
+const img = document.getElementById('img-change');
 const ball1 = document.getElementById('ball1');
 const ball2 = document.getElementById('ball2');
+const ball3 = document.getElementById('ball3');
+const arr = [div1, div2, div3];
+const balls = [ball1, ball2, ball3];
+let index = 0;
 
 buttonLeft.addEventListener('click', () => {
-  div1.classList.toggle('active');
-  div2.classList.toggle('active');
+  arr[index].classList.toggle('active');
+  arr[(arr.length - 1 + index) % 3].classList.toggle('active');
+  index--;
+  if (index < 0)index = 2;
 });
 
 buttonRight.addEventListener('click', () => {
-  div1.classList.toggle('active');
-  div2.classList.toggle('active');
+  arr[index].classList.toggle('active');
+  arr[(arr.length + 1 + index) % 3].classList.toggle('active');
+  index++;
+  if (index > 2)index = 0;
 });
 
-imgA.addEventListener('click', () => {
-  div1.classList.toggle('active');
-  div2.classList.toggle('active');
-  ball1.classList.remove('far');
-  ball1.classList.add('fas');
-  ball2.classList.remove('fas');
-  ball2.classList.add('far');
-});
+img.addEventListener('click', () => {
+  arr[index].classList.toggle('active');
+  arr[(arr.length + 1 + index) % 3].classList.toggle('active');
+  index++;
+  if (index > 2)index = 0;
 
-imgE.addEventListener('click', () => {
-  div1.classList.toggle('active');
-  div2.classList.toggle('active');
-  ball1.classList.remove('fas');
-  ball1.classList.add('far');
-  ball2.classList.remove('far');
-  ball2.classList.add('fas');
+  for (bi = 0; bi < balls.length; bi++) {
+    if (balls[bi].classList.contains('fas')) {
+      balls[bi].classList.remove('fas');
+      balls[bi].classList.add('far');
+    }
+  }
+
+  balls[index].classList.add('fas');
 });
