@@ -2,8 +2,10 @@ const buttonLeft = document.getElementById('arrow-left');
 const buttonRight = document.getElementById('arrow-right');
 const div1 = document.getElementById('quote1');
 const div2 = document.getElementById('quote2');
+const div2 = document.getElementById('quote3');
 const imgA = document.getElementById('img-alberto');
 const imgE = document.getElementById('img-emilio');
+const imgI = document.getElementById('img-ignacio');
 const ball1 = document.getElementById('ball1');
 const ball2 = document.getElementById('ball2');
 
